@@ -1,0 +1,38 @@
+/* header styles starts */
+.all {
+  background: url("images/banner/banner1.png");
+  width: 1600px;
+  height: 800px;
+  position: absolute;
+}
+.title {
+  margin-top: 250px;
+}
+.header-title {
+  font-size: 60px;
+  font-family: url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+  text-align: right;
+  margin-top: 150px;
+  margin-right: 350px;
+  padding-right: 50px;
+  margin-bottom: 0px;
+}
+.header-description {
+  font-size: 16px;
+  font-family: url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
+  text-align: right;
+  color: #9d9ea0;
+  margin-right: 350px;
+  padding-right: 50px;
+}
+.header-btn {
+  text-align: right;
+  background-color: #fc703d;
+  margin-left: 1100px;
+  margin-top: 10px;
+  padding: 10px;
+  color: beige;
+  border-radius: 5px;
+  border: none;
+}
+/* header styles ends */
