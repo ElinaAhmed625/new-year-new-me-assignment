@@ -54,3 +54,28 @@ li {
   color: grey;
 }
 /* section 1 ends */
+h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+.flex-icons {
+  display: flex;
+  justify-content: space-around;
+
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.flex-item {
+  padding: 5px;
+  margin: 0px;
+}
+h4 {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 5px;
+}
+p {
+  margin-top: 0px;
+}
