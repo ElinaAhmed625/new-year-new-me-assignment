@@ -1,13 +1,13 @@
 /* header styles starts */
 .header {
-  background: url("images/banner/banner1.png");
+  background: url("images/banner/banner2.png");
   width: 1600px;
   height: 800px;
   margin-top: 0px;
 }
 .title {
   float: right;
-  margin-top: 150px;
+  margin-top: 110px;
   padding: 30px;
 }
 .header-title {
@@ -22,7 +22,7 @@
   font-size: 16px;
   font-family: url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
   text-align: right;
-  color: #9d9ea0;
+  color: grey;
   margin-right: 350px;
   padding-right: 50px;
 }
@@ -34,6 +34,7 @@
   color: beige;
   border-radius: 5px;
   border: none;
+  margin-left: 280px;
 }
 /* header styles ends */
 /* section 1 starts */
@@ -52,6 +53,9 @@
 }
 li {
   color: grey;
+}
+ul {
+  align-text: center;
 }
 /* section 1 ends */
 /* icons starts */
@@ -73,7 +77,7 @@ h2 {
   margin: 0px;
 }
 h4 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bolder;
   margin: 5px;
 }
@@ -115,6 +119,7 @@ button {
 }
 .icons-images {
   display: flex;
+  gap: 10px;
 }
 .footer-item1 {
   color: azure;
@@ -126,4 +131,20 @@ button {
 .text {
   color: azure;
 }
+input[type="text"] {
+  width: 150px;
+  height: 30px;
+  background-color: black;
+}
+input[type="button"] {
+  background-color: azure;
+  color: orangered;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+.checkmark {
+  color: green;
+}
+
 /* footer ends */
